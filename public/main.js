@@ -18,5 +18,6 @@ persona="julian";
 
 const imprimir = () =>{
     document.getElementById("respuesta").innerHTML=persona;
+    document.getElementById("respuesta").innerHTML=nombre;
 };
 
