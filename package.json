@@ -1,0 +1,14 @@
+{
+  "name": "ejercicioopcional_2",
+  "version": "1.0.0",
+  "description": "modificar el ejemplo de los promedios y mostrarlos en el servidor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrés Alemán",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
