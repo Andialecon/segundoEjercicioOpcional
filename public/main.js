@@ -83,4 +83,13 @@ const eliminar=()=>{
     console.log("el estudiante ha sido borrado");
 };
 
+const aprovados=()=>{
+    let ganaron = estudiantes.filter(estudiante=>estudiante.promedio >= 3 );
+    var texto="";
+    ganaron.forEach(elemento => {
+        texto+= "<strong>"+elemento.nombre + "</strong></br>" + "<strong>Promedio:</strong> "+ elemento.promedio + "</br></br>"; 
+    });
+    document.getElementById("respuesta").innerHTML=texto;
+}
+
 
